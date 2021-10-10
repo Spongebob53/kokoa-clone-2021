@@ -1,5 +1,4 @@
 .welcome-header {
-  margin: 90px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,6 +7,7 @@
 }
 
 .welcome-header__title {
+  margin: 90px 0px;
   margin-bottom: 40px;
   font-size: 25px;
 }

@@ -43,6 +43,10 @@
   font-weight: 400;
 }
 
+.user-component__subtitle i {
+  color: #ff5e4d;
+}
+
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
   display: flex;
