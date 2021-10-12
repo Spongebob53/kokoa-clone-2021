@@ -1,0 +1,40 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(201, 158, 158, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-last {
+  padding-bottom: 50px;
+  border-bottom: var(--main-border);
+}
+
+.settings__setting-subcolumn {
+  opacity: 0.7;
+}
+
+.settings-list:last-child {
+  padding-top: 20px;
+}
+
+.settings__setting .badge {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.settings__setting-column {
+  display: flex;
+}

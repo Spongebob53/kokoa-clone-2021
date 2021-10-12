@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Bikini Talk</title>
+    <title>Chat w/ Patrick - Bikini Talk</title>
   </head>
-  <body>
-    <div class="status-bar">
+  <body id="chat-screen">
+    <div class="status-bar" id="status-bar__chat">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -19,26 +19,26 @@
       <div class="status-bar__column">
         <span>11%</span>
         <i class="fas fa-battery-quarter fa-lg"></i>
-        <!--'fa' means 'font awesome' lg means 'large'
-        whatever you want it makes icon size large
-        another ex) 2x means 2px-->
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Bikini Talk</h1>
-      <p class="welcome-header__text">
-        If you have a Bikini Account, log in with your email or phone number.
-      </p>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Patrick</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
     </header>
 
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="text" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="friends.html">Find Bikini Account or Password</a>
-    </form>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuseday, June 30, 2021</div>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/578d8b4f78.js"
       crossorigin="anonymous"
